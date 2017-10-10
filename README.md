@@ -22,6 +22,7 @@ in:
     - {name: id, type: long}
     - {name: name, type: string}
     - {name: email, type: string}
+    - {name: created, type: timestamp, format: '%Y-%m-%d %H:%M:%S'}
 out:
   type: stdout
 ```
