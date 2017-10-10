@@ -76,6 +76,7 @@ module Embulk
         page_builder.finish
       end
 
+      private
       def parse_line(line)
         # Escape "escaped TAB" temporarily
         line = line.gsub(/\\#{FIELDS_TERMINATED_BY}/, DUMMY_STRING)
