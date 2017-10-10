@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "embulk-parser-mysqldump_tab"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["inouet"]
   spec.summary       = "Mysqldump Tab parser plugin for Embulk"
   spec.description   = "Embulk parser plugin for mysqldump file that dumped with the --tab option."
